@@ -1,0 +1,64 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  db: gvb_db
+  user: root
+  password: cxj2001
+  log_level: dev
+  config: ""
+logger:
+  level: info
+  prefix: "[GVB]"
+  director: log
+  log-in-console: true
+  show_line: true
+system:
+  host: 127.0.0.1
+  port: 8080
+  env: dev
+site_info:
+  created_at: "2023-7-21"
+  bei_an: 青ICP备20230721号
+  title: Ci的个人博客
+  qq_image: http://
+  version: 0.0.4
+  email: 15597293038@163.com
+  wechat_image: http://
+  name: 蔡蔡
+  job: 后端开发
+  ddr: Ci的个人博客
+  solgan: MEILNABGE
+  slogan_en: http://
+  web: cici
+email:
+  host: smtp.qq.com
+  port: 465
+  user: xxx@qq.com
+  password: xxx
+  default_from_email: cici
+  user_ssl: false
+  user_tls: false
+qq:
+  app_id: xx
+  key: 48
+  redirect: http://xx/.xx.com
+jwt:
+  secret: xxx
+  expires: 24
+  issure: "1234"
+qi_niu:
+  enable: true
+  access_key: r3uCO6lUObcwT1H4zF4YeRu7JiaYbX0fqs41tyKD
+  secret_key: Lv9U4fdPhasIGMWQPPnxlAvO2K1WJxTqw3vJ72S1
+  bucket: caixiangjun
+  cdn: http://ryr36h4kq.bkt.clouddn.com/
+  zone: cn-east-2
+  size: 5
+upload:
+  size: 2
+  path: uploads/file
+redis:
+  ip: 192.168.163.130
+  port: 6379
+  password: 20011224
+  pool_size: 100
